@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chat Room!</title>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="chat.js"></script>
+  <style>
+  	#chat { height: 200px; width: 100%; background-color: lightgray; overflow: auto; }
+		#message { width: 300px; }
+		#members { height: 25px; border: 1px solid grey; border-radius: 8px; line-height: 25px; padding-left: 5px;
+		}
+		.hide { display: none; }
+  </style>
+</head>
+<body>
+ 
+  <div id="chat"></div>
+	<div id="members" class="hide"></div> 
+  <input type="text" id="name" placeholder="Your Name" />
+  <input type="text" id="message" class="hide" />
+  <button id="join">Join</button>
+  <button id="send" class="hide">Send</button>
+	<button id="troll" class="hide">Troll</button>
+</body>
+</html>

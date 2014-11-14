@@ -1,0 +1,11 @@
+{
+  "name": "WebSocket chat for LHL",
+  "version": "0.0.1",
+  "description": "This demos chatting over websockets using the WS NPM package",
+  "author": "Don Burks <don@lighthouselabs.ca>",
+  "license": "MIT",
+  "main": "server.js",
+  "dependencies": {
+    "ws": "^0.4.32"
+  }
+}
